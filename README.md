@@ -1,5 +1,7 @@
 # Journal Figure Format
 
+[![Validate skill](https://github.com/Webb0755/journal-figure-format/actions/workflows/validate.yml/badge.svg)](https://github.com/Webb0755/journal-figure-format/actions/workflows/validate.yml)
+
 Codex skill for preparing scientific figures for journal submission. It helps identify journal or publisher figure requirements, apply Matplotlib journal presets, inspect raster figure resolution, and export submission-ready figures as EPS, PDF, or TIFF.
 
 ## Features
