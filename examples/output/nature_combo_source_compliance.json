@@ -1,0 +1,30 @@
+{
+  "input": "examples/nature_combo_source.png",
+  "preset": "Nature Portfolio",
+  "figure_type": "combo",
+  "source": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width_px": 2400,
+    "height_px": 1440,
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "target": {
+    "width_mm": 89.0,
+    "dpi": 600,
+    "required_width_px": 2103,
+    "preferred_format": "tif",
+    "color_mode": "RGB"
+  },
+  "scale_factor": 0.8762,
+  "status": "pass",
+  "warnings": [],
+  "output": "examples/output/nature_combo_source_nature_combo.tif",
+  "output_dimensions_px": [
+    2103,
+    1262
+  ]
+}

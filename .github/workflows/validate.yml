@@ -37,7 +37,7 @@ jobs:
         run: python scripts/validate_skill.py .
 
       - name: Compile Python scripts
-        run: python -m compileall -q scripts tests
+        run: python -m compileall -q scripts tests examples
 
       - name: Run tests
         env:

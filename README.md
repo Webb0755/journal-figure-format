@@ -12,6 +12,41 @@ Codex skill for preparing scientific figures for journal submission. It helps id
 - Raster inspection for dimensions, DPI, color mode, and target width.
 - Compliance reports with pass/warning status.
 
+## Example Output
+
+The example below was prepared with the Nature Portfolio single-column
+`combo` preset:
+
+![Nature-format example figure](examples/output/nature_combo_preview.png)
+
+| Property | Result |
+| --- | --- |
+| Final size | 89 mm wide, 2103 x 1262 px |
+| Resolution | 600 dpi |
+| Color mode | RGB |
+| Submission format | TIFF |
+| Compliance status | Pass |
+
+Example files:
+
+- [Submission-ready TIFF](examples/output/nature_combo_source_nature_combo.tif)
+- [Markdown compliance report](examples/output/nature_combo_source_compliance.md)
+- [JSON compliance report](examples/output/nature_combo_source_compliance.json)
+- [Reproducible source generator](examples/generate_example.py)
+
+Recreate the example:
+
+```bash
+python examples/generate_example.py
+python scripts/figure_prepare.py export \
+  examples/nature_combo_source.png \
+  --journal nature \
+  --figure-type combo \
+  --width-mm 89 \
+  --format tiff \
+  --output-dir examples/output
+```
+
 ## Install
 
 Copy the `journal-figure-format` folder into your Codex skills directory:
