@@ -1,0 +1,4 @@
+interface:
+  display_name: "Journal Figure Format"
+  short_description: "Format figures for journal submission rules"
+  default_prompt: "Use $journal-figure-format to identify the target journal requirements and produce compliant submission figures."
